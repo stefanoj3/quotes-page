@@ -1,0 +1,77 @@
+html {
+    background: url(images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background-color: transparent;
+}
+
+#container {
+    width: 40%;
+    /*height: 300px;*/
+    background-color: rgba(30, 30, 30, 0.80);
+
+    /*centering the quote horizontally and vertically*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    border-radius: 15px;
+    border: rgba(60, 60, 60, 0.70) 1px solid;
+
+    color: rgb(232, 232, 232);
+}
+
+blockquote {
+    border: none;
+    width: 100%;
+    height:75%;
+}
+blockquote #quote {
+    padding: 9px;
+    text-align: center;
+    font-size: 1.7em;
+    font-family: 'Roboto', sans-serif;
+}
+blockquote #author {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+.btn:focus, .btn:active {
+    outline: none !important;
+
+}
+.btn-default:hover {
+    background-color: rgb(232, 232, 232);
+}
+
+.btn {
+    color: rgb(232, 232, 232);
+}
+
+#next_quote {
+    position:absolute;
+    bottom:5%;
+    right:1%;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+}
